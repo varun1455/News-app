@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    color: white;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Libre Baskerville', serif;
+    flex-direction: column;
+    padding: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.head1{
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-style: oblique;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.main-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.child-grid{
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.news-image{
+    width: 100%;
+    height: 300px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.news-title{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.news-content{
+    font-size: 17px;
+}
+
+.news-author{
+    font-style: italic;
+    font-size: 14px;
+
+}
+
+.news-date{
+    font-size: 14px;
+}
+
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link{
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+.select{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 260px;
+    margin-top: 0%;
+    margin-bottom: 40px;
+    border-radius: 3px;
+   
+
+    
+
+}
+
+.select-box{
+    
+        padding: 10px;
+        font-size: 18px;
+}
+
+
+
+.options{
+    font-size: 18px;
 }
